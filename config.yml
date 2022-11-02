@@ -1,0 +1,37 @@
+lobby-number: "#1"
+
+scoreboard:
+  display-name: '&6&lFASTLY'
+  lines:
+    - ''
+    - '&f Online: &e%bungee_total%'
+    - '&f Grupo: %vault_prefix%'
+    - ''
+    - '&f R. Heads: &7%bungee_rankup%'
+    - ''
+    - '&7redefastly.net'
+
+servers:
+  rankup:
+    isLobby: false
+    inventorySlot: 11
+    commandOnClick: 'connect rankup'
+    icon:
+      id: 397
+      data: 3
+      head: true
+      head-texture: '1638469a599ceef7207537603248a9ab11ff591fd378bea4735b346a7fae893'
+      displayName: '&eRank UP Heads'
+      lore:
+        - '&7loredahoraxdxd'
+        - '&7loredahora2xdxd'
+        - ''
+        - '&7{onlines} jogando.'
+        - '&eClique para conectar!'
+
+tablist:
+  header: '&b \n&6&lREDE FASTLY\n&f    loja.redefastly.net\n&f'
+  footer: '&f\n&eDiscord: &fdiscord.redefastly.net\n&f\n&b     Adquira &franks &be outros em &floja.redefastly.net&b.     \n&f'
+
+Locations:
+  spawn: lobby;0.0;0.0;0.0;0.0;0.0
