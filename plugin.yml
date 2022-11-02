@@ -1,0 +1,5 @@
+name: FastlyLobby
+main: com.github.manocomandante.redefastly.lobby.LobbyPlugin
+version: 1.0-SNAPSHOT
+authors: [ManoComandante]
+depend: [nLogin, Vault]
